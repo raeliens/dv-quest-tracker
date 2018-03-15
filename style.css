@@ -3,6 +3,7 @@ body {
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: auto;
 }
 
 div {
