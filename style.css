@@ -95,25 +95,18 @@ h3 {
 }
 
 h2 {
-  font-family: "roboto condensed", "open sans", sans-serif;
-  font-size: 28px;
-  color: #b98c75;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 3% 0 0;
-  padding: 0 0 0;
-  background-color: rgba(255, 255, 255, 0.55);
-  border-radius: 10px;
-  border: 3px solid white;
-  /**
-  is this too much border. should we delete
-  need to make the inner divs look less bland
-  **/
-  width: 100%;
-  /** 
-  for the life of me i cant get this binch properly centered within the div;
-  check out the alignment of the right side of the header
-  **/
+    display: inline-block;
+    color: #e1ab87;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #fff;
+    margin: 3% 0 0;
+    padding: 5px 18px;
+    border-radius: 12px;
+    font-family: "Roboto Condensed", "open sans", sans-serif;
+    vertical-align: middle;
+
 }
 
 h1 {
