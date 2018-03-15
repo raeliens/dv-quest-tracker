@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-
 body {
   background-image: url("https://i.imgur.com/N1rdKHo.png");
   background-color: #cccccc;
@@ -9,12 +8,24 @@ body {
   font-family: "roboto condensed", "open sans", sans-serif;
 }
 
+.container {
+  padding: 5%;
+  width: auto;
+}
+
 .trout {
-  width: 50%;
+  position: relative;
+  z-index: 1;
+  width: auto;
+  min-width: 30%;
+  max-width: 425px;
+  /**
+yes i already tried 420 and it's too small so dont even try it!!
+**/
   background-color: rgba(248, 208, 161, 1);
   border: 4px solid white;
   border-radius: 23px;
-  margin: 3% 0 3%;
+  margin: 3% 25% 3%;
   padding: 0 3% 2%;
 }
 
@@ -37,6 +48,8 @@ why she here?
 **/
 
 .npc {
+  position: relative;
+  z-index: 2;
   width: 100%;
   text-align: center;
 }
@@ -91,18 +104,17 @@ h2 {
   padding: 0 0 0;
   background-color: rgba(255, 255, 255, 0.55);
   border-radius: 10px;
-  border: 3px solid white; 
+  border: 3px solid white;
   /**
   is this too much border. should we delete
   need to make the inner divs look less bland
-  **/ 
-  width: 100%;
-
-  /** 
-      for the life of me i cant get this binch properly centered within the div;
-      check out the alignment of the right side of the header
   **/
-  }
+  width: 100%;
+  /** 
+  for the life of me i cant get this binch properly centered within the div;
+  check out the alignment of the right side of the header
+  **/
+}
 
 h1 {
   font-family: "roboto condensed", "open sans", sans-serif;
