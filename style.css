@@ -10,16 +10,15 @@ body {
 }
 
 .trout {
-  width: 35%;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 30px;
-  background-color: #F8D0A1;
+  width: 50%;
+  background-color: rgba(248, 208, 161, 1);
   border: 4px solid white;
   border-radius: 23px;
-  margin: 30px;
-  text-align: center;
+  margin: 3% 0 3%;
+  padding: 0 3% 2%;
 }
+
+/**
 
 .hmm {
   background-color: white;
@@ -31,6 +30,11 @@ body {
   padding-top: -50px;
   padding-bottom: 10px;
 }
+
+who is she? whomst??
+why she here?
+
+**/
 
 .npc {
   width: 100%;
@@ -73,6 +77,8 @@ h3 {
   color: white;
   text-align: center;
   text-transform: uppercase;
+  margin: 6% 0 1%;
+  padding: 0 0 0 0;
 }
 
 h2 {
@@ -81,7 +87,22 @@ h2 {
   color: #b98c75;
   text-align: center;
   text-transform: uppercase;
-}
+  margin: 3% 0 0;
+  padding: 0 0 0;
+  background-color: rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  border: 3px solid white; 
+  /**
+  is this too much border. should we delete
+  need to make the inner divs look less bland
+  **/ 
+  width: 100%;
+
+  /** 
+      for the life of me i cant get this binch properly centered within the div;
+      check out the alignment of the right side of the header
+  **/
+  }
 
 h1 {
   font-family: "roboto condensed", "open sans", sans-serif;
