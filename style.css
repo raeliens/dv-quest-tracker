@@ -8,34 +8,87 @@ body {
   background-size: 100% 100%;
 }
 
-div {
-  width: 402px;
+.trout {
+  width: 75%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  background-color: #F8D0A1;
+  border: 4px solid white;
+  border-radius: 23px;
+  margin: 30px;
+}
+
+.hmm {
+  background-color: white;
+  border: 4px solid white;
+  border-radius: 23px;
+  display: inline-block;
+  height: 50px;
+  margin: 20px;
+  padding-top: -50px;
+  padding-bottom: 10px;
+}
+
+.npc {
+  width: 100%;
+  text-align: center;
+}
+
+div#wrapperHeader {
+  width: 100%;
+  height: 200px;
+  background: url("https://i.imgur.com/tWerAps.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+div#wrapperHeader div#header {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+div#wrapperHeader div#header img {
+  width: 336px;
+  height: 149px;
+  margin: 0 auto;
 }
 
 .banner {
   background-image: url("https://i.imgur.com/8qyJzyE.png");
-  height: 75px;
-  width: 418px;
-  padding-top: 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h3 {
-  font-family: roboto;
-  font-size: 16px;
+  font-family: "roboto condensed";
+  font-size: 22px;
   color: white;
   text-align: left;
+  text-transform: uppercase;
+  padding-left: 5%;
 }
 
 h2 {
-  font-family: roboto;
-  font-size: 20px;
-  color: white;
+  font-family: "roboto condensed";
+  font-size: 26px;
+  color: #b98c75;
+  text-transform: uppercase;
 }
 
 h1 {
-  font-family: roboto;
+  font-family: "roboto condensed";
   font-size: 24px;
-  color: #a34225;
+  color: #E1AB87;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .button {
@@ -43,10 +96,10 @@ h1 {
   border: 3px solid white;
   border-radius: 23px;
   color: white;
-  padding: 15px 20px;
+  padding: 15px 21px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-family: roboto;
-  font-size: 14px;
+  font-size: 18px;
 }
