@@ -12,7 +12,14 @@ div {
   width: 402px;
 }
 
-h1 {
+.banner {
+  background-image: url("https://i.imgur.com/8qyJzyE.png");
+  height: 85px;
+  width: 418px;
+  padding-top: 10px;
+}
+
+h3 {
   font-family: roboto;
   font-size: 16px;
   color: white;
@@ -25,10 +32,10 @@ h2 {
   color: white;
 }
 
-h3 {
+h1 {
   font-family: roboto;
   font-size: 24px;
-  color: white;
+  color: #a34225;
 }
 
 .button {
