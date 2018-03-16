@@ -1,4 +1,3 @@
-//window.addEventListener('load', function() {
   $(document).ready(function() {
   var count = 1;
   document.querySelectorAll('button').forEach(function(a) {
@@ -19,4 +18,3 @@
       $('h2').toggleClass('dark');
     });
   });
-
