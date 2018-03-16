@@ -10,14 +10,14 @@ body {
   padding: 0;
   width: 100%;
   margin: 0 auto;
-  justify:center;
-  align:center;
+  justify: center;
+  align: center;
 }
 
 .trout {
-  justify:center;
+  justify: center;
   position: relative;
-  width: 40%
+  width: 40%;
   min-width: 20%;
   max-width: 425px;
   background-color: rgba(248, 208, 161, 1);
@@ -26,7 +26,6 @@ body {
   margin: 3% 5% 3%;
   padding: 0 3% 2%;
 }
-
 
 .npc {
   position: relative;
@@ -73,18 +72,17 @@ h3 {
 }
 
 h2 {
-    display: inline-block;
-    color: #e1ab87;
-    font-size: 28px;
-    text-transform: uppercase;
-    font-weight: bold;
-    background: #fff;
-    margin: 3% 0 0;
-    padding: 5px 18px;
-    border-radius: 12px;
-    font-family: "Roboto Condensed", "open sans", sans-serif;
-    vertical-align: middle;
-
+  display: inline-block;
+  color: #e1ab87;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #fff;
+  margin: 3% 0 0;
+  padding: 5px 18px;
+  border-radius: 12px;
+  font-family: "Roboto Condensed", "open sans", sans-serif;
+  vertical-align: middle;
 }
 
 h1 {
@@ -108,4 +106,20 @@ h1 {
   display: inline-block;
   font-family: "roboto condensed", "open sans", sans-serif;
   font-size: 18px;
+}
+
+#color {
+  cursor: pointer;
+  background-color: #e8b492;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 35px;
+  color: #fff;
 }
