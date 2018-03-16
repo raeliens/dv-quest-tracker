@@ -4,6 +4,14 @@ body {
   background-color: #cccccc;
   background-size: 100% 100%;
   font-family: "roboto condensed", "open sans", sans-serif;
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */
 }
 
 .container {
@@ -112,16 +120,9 @@ h1 {
   line-height: 40px;
   font-size: 35px;
   color: #fff;
-  -webkit-user-select: none;
-  /* Chrome all / Safari all */
-  -moz-user-select: none;
-  /* Firefox all */
-  -ms-user-select: none;
-  /* IE 10+ */
-  user-select: none;
-  /* Likely future */
 }
 
 .dark {
   color: black
 }
+
