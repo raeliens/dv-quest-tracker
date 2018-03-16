@@ -13,12 +13,10 @@
   }
 }, false);
 
+ 
+  $(document).ready(function() {
     $(color).click(function() {
       $('h2').toggleClass('dark');
     });
-
-//  $(document).ready(function() {
-//    $(color).click(function() {
-//      $('h2').toggleClass('dark');
-//    });
   });
+
