@@ -10,7 +10,7 @@
       this.dataset.count = this.dataset.count >= 0 ? ++this.dataset.count : 0;
       this.style.backgroundColor = col[this.dataset.count % col.length]
     }
-  }, false);
+  }, false)
 
   $(color).click(function() {
     $('h2').toggleClass('dark');
