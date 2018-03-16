@@ -97,6 +97,7 @@ h1 {
   display: inline-block;
   font-family: "roboto condensed", "open sans", sans-serif;
   font-size: 18px;
+  outline: none;
 }
 
 #color {
