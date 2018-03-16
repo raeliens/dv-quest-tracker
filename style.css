@@ -112,6 +112,14 @@ h1 {
   line-height: 40px;
   font-size: 35px;
   color: #fff;
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */
 }
 
 .dark {
