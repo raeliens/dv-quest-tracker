@@ -71,7 +71,6 @@ h2 {
   padding: 0 0 0 0;
 }
 
-
 h1 {
   display: inline-block;
   color: #e1ab87;
@@ -113,4 +112,8 @@ h1 {
   line-height: 40px;
   font-size: 35px;
   color: #fff;
+}
+
+.dark {
+  color: black
 }
