@@ -11,3 +11,11 @@ function setColor() {
   this.style.backgroundColor = col[this.dataset.count % col.length]
 }
 }, false);
+
+
+document.getElementById('change').onclick = changeColor;   
+
+    function changeColor() {
+        document.h3.style.color = "black";
+        return false;
+    }   
