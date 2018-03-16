@@ -11,14 +11,12 @@ window.addEventListener('load', function() {
     this.style.backgroundColor = col[this.dataset.count % col.length]
   }
 
-// sorry i dont know how to code this in pure js
-// instead ive just coded this part in jQuery
-// maybe one day we can clean this up & make her toggle
-
-$(document).ready(function() {
+  $(document).ready(function() {
     $(color).click(function() {
-        $('h2').attr('style','color: black;');
-        $(color).attr('style','color: black;');
+      $('h2').toggleClass('dark');
     });
-});
+  });
+
+  // SHE TOGGLES!!
+
 }, false);
