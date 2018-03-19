@@ -10,6 +10,7 @@ window.addEventListener('load', function() {
     this.dataset.count = this.dataset.count >= 0 ? ++this.dataset.count : 0;
     this.style.backgroundColor = col[this.dataset.count % col.length]
   }
+}, false);
 
   $(document).ready(function() {
     $(color).click(function() {
@@ -18,5 +19,3 @@ window.addEventListener('load', function() {
   });
 
   // SHE TOGGLES!!
-
-}, false);
