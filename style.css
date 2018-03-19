@@ -42,7 +42,6 @@ body {
 .trout {
     position: relative;
     width: @screen-md-mid;
-    min-width: 30%;
     max-width: 485px;
     background-color: rgb(248, 208, 161);
     border: 4px solid white;
