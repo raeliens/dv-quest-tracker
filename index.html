@@ -1,83 +1,98 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <title>Daily Quest Tracker</title>
-    <link rel="shortcut icon" type="image/png" href="fav.png" />
-    <link rel='stylesheet' href='style.css' />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
-    <script src="jquery-3.3.1.min.js"></script>
-  </head>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+</head>
 
-  <body>
+<body>
     <div id="wrapperHeader">
-      <div id="header" alt="Dappervolk logo">
-      </div>
+        <div id="header" title="Dappervolk logo">
+        </div>
     </div>
 
-    <div class="container">
-      <center>
-        <img src="https://i.imgur.com/8bPJcxD.png" alt="Quests">
-        <div class="trout">
-          <div id="color">
-            ☽
-          </div>
-          <h1>Louise Hill</h1>
-          <div class="npc">
-            <h2>Bearnard</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button></div>
+    <div class="container-fluid">
+        <center>
+            <img src="https://i.imgur.com/8bPJcxD.png" title="Quests">
+            <div class="trout">
+                <div id="color">
+                    <i class="fas fa-moon" title="toggle font color"></i>
+                </div>
+                <a data-toggle="collapse" href="#louise">
+                    <h1>Louise Hill</h1>
+                </a>
+                <div class="collapsed show" id="louise">
+                    <h2>Bearnard</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
 
-          <div class="npc">
-            <h2>Buli</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button></div>
 
-          <div class="npc">
-            <h2>Calbet</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button></div>
-          <div class="npc">
-            <h2>Old Farmhand</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button></div>
-          <div class="npc">
-            <h2>Lilia</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
-          </div>
-          <div class="npc">
-            <h2>Fantasia</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
-          </div>
-        </div>
+                    <h2>Buli</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
 
-        <div class="trout">
-          <h1>Three's Forest</h1>
-          <div class="npc">
-            <h2>Trout</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
-          </div>
-          <div class="npc">
-            <h2>Irin</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
-          </div>
-          <div class="npc">
-            <h2>Magdalene</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
-          </div>
-          <div class="npc">
-            <h2>Barclay</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
-          </div>
-          <div class="npc">
-            <h2>Mycel</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
-          </div>
-          <div class="npc">
-            <h2>Glume</h2>
-            <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
-          </div>
-        </div>
-      </center>
+
+                    <h2>Calbet</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
+
+
+                    <h2>Old Farmhand</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
+
+
+                    <h2>Lilia</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
+
+
+                    <h2>Fantasia</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
+                </div>
+            </div>
+            <div class="trout">
+                <a data-toggle="collapse" href="#threes">
+                    <h1>Three's Forest</h1>
+                </a>
+                <div class="collapsed show" id="threes">
+
+                    <h2>Trout</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
+
+
+                    <h2>Irin</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
+
+
+                    <h2>Magdalene</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
+
+
+                    <h2>Barclay</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
+
+
+                    <h2>Mycel</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
+
+
+                    <h2>Glume</h2>
+                    <button class="button">1</button> <button class="button">2</button> <button class="button">3</button> <button class="button">4</button> <button class="button">5</button> <button class="button">6</button> <button class="button">7</button>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <span class="text">visual daily quest tracker by <a href="https://dappervolk.com/profile/575">fel</a> and <a href="https://dappervolk.com/profile/436">rae</a>
+          <br><a href="https://dappervolk.com/forum/topic/6911-visual-daily-quest-tracker">see forum</a></span>
+                </div>
+        </center>
     </div>
 
-  </body>
+</body>
 
 </html>

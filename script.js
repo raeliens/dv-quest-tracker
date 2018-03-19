@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+  $(document).ready(function() {
   var count = 1;
   document.querySelectorAll('button').forEach(function(a) {
     a.addEventListener('click', setColor)
@@ -12,10 +12,9 @@ window.addEventListener('load', function() {
   }
 }, false);
 
+ 
   $(document).ready(function() {
     $(color).click(function() {
       $('h2').toggleClass('dark');
     });
   });
-
-  // SHE TOGGLES!!

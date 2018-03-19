@@ -1,128 +1,169 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-body {
-  background: url("https://i.imgur.com/N1rdKHo.png") no-repeat fixed;
-  background-color: #cccccc;
-  background-size: 100% 100%;
-  font-family: "roboto condensed", "open sans", sans-serif;
-  -webkit-user-select: none;
-  /* Chrome all / Safari all */
-  -moz-user-select: none;
-  /* Firefox all */
-  -ms-user-select: none;
-  /* IE 10+ */
-  user-select: none;
-  /* Likely future */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
 }
 
-.container {
-  padding: 0;
-  width: 100%;
-  margin: 0 auto;
-  justify: center;
-  align: center;
+::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
 }
+
+body {
+    background: url("https://i.imgur.com/N1rdKHo.png") no-repeat fixed;
+    background-color: #cccccc;
+    background-size: 100% 100%;
+    font-family: "roboto condensed", "open sans", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+}
+
+/* .container {
+    padding: 0 auto;
+    width: 100%;
+    margin: 0 auto;
+}
+*/
 
 .trout {
-  justify: center;
-  position: relative;
-  width: 40%;
-  min-width: 20%;
-  max-width: 425px;
-  background-color: rgba(248, 208, 161, 1);
-  border: 4px solid white;
-  border-radius: 23px;
-  margin: 3% 5% 3%;
-  padding: 0 3% 2%;
+    position: relative;
+    width: @screen-md-mid;
+    max-width: 485px;
+    background-color: rgb(248, 208, 161);
+    border: 4px solid white;
+    border-radius: 23px;
+    margin: 30px 0px 30px;
+    padding: 10px 0px 10px;
 }
 
-.npc {
-  position: relative;
-  width: 100%;
-  text-align: center;
+#wrapperHeader {
+    width: 100%;
+    height: 200px;
+    background: url("https://i.imgur.com/tWerAps.png") no-repeat center;
+    text-align: center;
+    border: none;
+
 }
 
-div#wrapperHeader {
-  width: 100%;
-  height: 200px;
-  background: url("https://i.imgur.com/tWerAps.png") no-repeat center;
-  text-align: center;
+#wrapperHeader #header {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    border: none;
 }
 
-div#wrapperHeader div#header {
-  width: 100%;
-  height: 200px;
-  margin: 0 auto;
-}
-
-div#wrapperHeader div#header img {
-  width: 336px;
-  height: 149px;
-  margin: 0 auto;
+#wrapperHeader #header img {
+    width: 336px;
+    height: 149px;
+    margin: 0 auto;
+    border: none;
 }
 
 .banner {
-  background: url("https://i.imgur.com/8qyJzyE.png");
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    background: url("https://i.imgur.com/8qyJzyE.png");
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h2 {
-  font-family: "roboto condensed", "open sans", sans-serif;
-  font-size: 22px;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 6% 0 1%;
-  padding: 0 0 0 0;
+    font-family: "roboto condensed", "open sans", sans-serif;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 6% 0 1%;
+    padding: 0 0 0 0;
 }
 
 h1 {
-  display: inline-block;
-  color: #e1ab87;
-  font-size: 28px;
-  text-transform: uppercase;
-  font-weight: bold;
-  background: #fff;
-  margin: 3% 0 0;
-  padding: 5px 18px;
-  border-radius: 12px;
-  font-family: "Roboto Condensed", "open sans", sans-serif;
-  vertical-align: middle;
+    display: inline-block;
+    color: #e1ab87;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #fff;
+    margin: 0 0 0;
+    padding: 5px 18px;
+    border-radius: 12px;
+    font-family: "Roboto Condensed", "open sans", sans-serif;
+    vertical-align: middle;
 }
 
 .button {
-  background-color: #ff5959;
-  border: 3px solid white;
-  border-radius: 23px;
-  color: white;
-  padding: 15px 21px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: "roboto condensed", "open sans", sans-serif;
-  font-size: 18px;
-  outline: none;
+    background-color: #ff5959;
+    border: 3px solid white;
+    border-radius: 23px;
+    color: white;
+    padding: 12px 21px;
+    margin: 0em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "roboto condensed", "open sans", sans-serif;
+    font-size: 18px;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
 }
 
 #color {
-  background-color: #e8b492;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  position: absolute;
-  top: -18px;
-  right: -18px;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 35px;
-  color: #fff;
+    border: none;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .dark {
-  color: black
+    /* color: black; */
+    color: rgb(219, 127, 94);
 }
 
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border: 0!important;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+footer a {
+    color: rgb(219, 127, 94);
+}
+
+footer a:hover {
+    color: rgb(248, 208, 161) !important;
+}
