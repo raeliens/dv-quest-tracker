@@ -161,7 +161,7 @@ button#reset {
 #color {
     border: none;
     position: fixed;
-/*
+    /*
     position: -webkit-sticky;
     float: right;
     margin: 65px -15px 0 0;
