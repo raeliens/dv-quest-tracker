@@ -118,7 +118,7 @@ button:focus {
 
 .dark {
     /* color: black; */
-    color: rgb(219, 127, 94);
+    color: rgb(219, 127, 94) !important;
 }
 
 a,
