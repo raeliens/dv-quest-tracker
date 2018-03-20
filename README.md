@@ -9,3 +9,7 @@ a visual tracker for completing daily quests from npcs on dappervolk. there are 
 collapse the box for a town by clicking its name in the header. click the moon on the top right corner to darken the npc names.
 
 happy questing!
+
+# to do:
+- have button colors save
+- add reset all button
