@@ -1,20 +1,22 @@
-  $(document).ready(function() {
-  var count = 1;
-  document.querySelectorAll('button').forEach(function(a) {
-    a.addEventListener('click', setColor)
-  })
-
-  var col = ["#fffc59", "#5afc8e", "#ff5959"];
-
-  function setColor() {
-    this.dataset.count = this.dataset.count >= 0 ? ++this.dataset.count : 0;
-    this.style.backgroundColor = col[this.dataset.count % col.length]
-  }
-}, false);
-
- 
-  $(document).ready(function() {
-    $(color).click(function() {
-      $('h2').toggleClass('dark');
-    });
+  $(document).ready(function () {
+      $(color).click(function () {
+          $('h2').toggleClass('dark');
+      });
   });
+
+  var colors = ["#fffc59", "#5afc8e", "#ff5959"];
+
+  function setColor(el) {
+      el.colorIdx = el.colorIdx || 0;
+      el.style.backgroundColor = colors[el.colorIdx++ % colors.length];
+  }
+
+  $(document).ready(function () {
+      $('#reset').click(function () {
+          $('button').css('background-color', '#ff5959');
+      })
+  });
+
+  // To add reset button
+  // use following in HTML:
+  // <button id="reset">Reset</button>
