@@ -11,12 +11,11 @@
       el.style.backgroundColor = colors[el.colorIdx++ % colors.length];
   }
 
-  $(document).ready(function () {
-      $('#reset').click(function () {
-          $('button').css('background-color', '#ff5959');
-      })
-  });
 
+  //      $('#reset').click(function () {
+  //          $('button').css('background-color', colors[2]);
+  //      })
+  //  });
   // To add reset button
   // use following in HTML:
-  // <button id="reset">Reset</button>
+  // <button id="reset" title="Reset progress">Reset</button>
