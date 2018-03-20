@@ -124,23 +124,6 @@ button:focus {
     outline: none;
 }
 
-#color {
-    border: none;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0px;
-    right: 0px;
-    float: right;
-    text-align: center;
-    font-size: 22px;
-    font-weight: bold;
-    color: #fff;
-    margin: 90px -15px 0 0;
-    z-index: 100;
-    overflow: hidden;
-
-}
-
 .dark {
     /* color: black; */
     color: rgb(219, 127, 94);
@@ -170,7 +153,34 @@ footer a:hover {
     color: rgb(248, 208, 161) !important;
 }
 
-h1 a, a:hover, a:active, a:link, a:visited {
+h1 a,
+a:hover,
+a:active,
+a:link,
+a:visited {
     color: #e1ab87;
     outline: none;
+}
+
+button#reset {
+    float: top;
+}
+
+#color {
+    border: none;
+    position: fixed;
+/*
+    position: -webkit-sticky;
+    float: right;
+    margin: 65px -15px 0 0;
+*/
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 100;
+    overflow: hidden;
+
 }
