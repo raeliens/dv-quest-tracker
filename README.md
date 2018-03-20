@@ -11,5 +11,5 @@ collapse the box for a town by clicking its name in the header. click the moon o
 happy questing!
 
 # to do:
-- * add reset all button *
+- *add reset all button*
 - have button colors save
