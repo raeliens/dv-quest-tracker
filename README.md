@@ -1,4 +1,4 @@
-# dv-quest-tracker
+## dv-quest-tracker
 dappervolk daily quest tracker
 created by fel (#575) and rae (#436)
 
@@ -11,5 +11,5 @@ collapse the box for a town by clicking its name in the header. click the moon o
 happy questing!
 
 # to do:
+- * add reset all button *
 - have button colors save
-- add reset all button
