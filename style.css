@@ -21,7 +21,6 @@ body {
     background-color: #cccccc;
     background-size: 100% 100%;
     font-family: "roboto condensed", "open sans", sans-serif;
-    font-weight: bold;
     font-size: 18px;
     -webkit-user-select: none;
     /* Chrome all / Safari all */
@@ -162,8 +161,14 @@ a:visited {
 
 footer a {
     color: rgb(219, 127, 94);
+    font-weight: bold;
 }
 
 footer a:hover {
     color: rgb(248, 208, 161) !important;
+}
+
+h1 a, a:hover, a:active, a:link, a:visited {
+    color: #e1ab87;
+    outline: none;
 }
