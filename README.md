@@ -10,6 +10,10 @@ collapse the box for a town by clicking its name in the header. click the moon o
 
 happy questing!
 
+## changelog
+- added 'reset' button that atm only refreshes the page, but otherwise resets all button presses
+- moved 'moon' for darker font text to the top right corner of the page so it's always visible
+
 ### to do:
 - *add reset all button*
 - have button colors save

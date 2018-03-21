@@ -71,14 +71,6 @@ body {
     border: none;
 }
 
-.banner {
-    background: url("https://i.imgur.com/8qyJzyE.png");
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 h2 {
     font-family: "roboto condensed", "open sans", sans-serif;
@@ -124,24 +116,9 @@ button:focus {
     outline: none;
 }
 
-#color {
-    border: none;
-    position: absolute;
-    top: -30px;
-    right: -30px;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    font-size: 22px;
-    font-weight: bold;
-    color: #fff;
-    margin: 0 auto;
-    padding: 0 auto;
-}
-
 .dark {
     /* color: black; */
-    color: rgb(219, 127, 94);
+    color: rgb(219, 127, 94) !important;
 }
 
 a,
@@ -168,7 +145,34 @@ footer a:hover {
     color: rgb(248, 208, 161) !important;
 }
 
-h1 a, a:hover, a:active, a:link, a:visited {
+h1 a,
+a:hover,
+a:active,
+a:link,
+a:visited {
     color: #e1ab87;
     outline: none;
+}
+
+button#reset {
+    float: top;
+}
+
+#color {
+    border: none;
+    position: fixed;
+    /*
+    position: -webkit-sticky;
+    float: right;
+    margin: 65px -15px 0 0;
+*/
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 100;
+    overflow: hidden;
+
 }
