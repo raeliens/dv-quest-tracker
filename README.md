@@ -17,7 +17,7 @@ happy questing!
 - replaced 'moon' font color changer with high contrast/dark mode theme toggle
 
 ### to do:
-- *add reset all button*
-- *add dark theme*
+- ~~*add reset all button*~~
+- ~~*add dark theme*~~
 - have button colors save
 - code dark theme properly
