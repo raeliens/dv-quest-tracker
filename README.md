@@ -14,8 +14,10 @@ happy questing!
 - added 'reset' button that atm only refreshes the page, but otherwise resets all button presses
 - moved 'moon' for darker font text to the top right corner of the page so it's always visible
 - added sections for silvie's mine and aviar cove
+- replaced 'moon' font color changer with high contrast/dark mode theme toggle
 
 ### to do:
 - *add reset all button*
+- *add dark theme*
 - have button colors save
-- add proper dark theme
+- code dark theme properly
