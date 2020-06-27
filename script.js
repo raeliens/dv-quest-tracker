@@ -5,7 +5,10 @@
 
 $(document).ready(function () {
    $(color).click(function () {
+        $('h1').toggleClass('dark2');
         $('h2').toggleClass('dark');
+        $('button').toggleClass('darkbtn');
+        $('.trout').toggleClass('darkdiv');
     });
 });
 
