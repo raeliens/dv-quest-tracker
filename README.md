@@ -3,12 +3,10 @@ dappervolk daily quest tracker
 created by fel (#575) and rae (#436)
 
 master:
-
 https://dfbl.github.io/dv-quest-tracker/
 
 
 up-to-date version:
-
 https://raeliens.github.io/dv-quest-tracker/
 
 
@@ -35,5 +33,4 @@ happy questing!
 
 
 view forum:
-
 https://dappervolk.com/forum/topic/1201-visual-daily-quest-tracker
