@@ -28,7 +28,7 @@ happy questing!
 
 ### to do:
 - code dark theme properly
-- peddler's port added along with agne's daily quest
+- peddler's port added along with agnes's daily quest
 - progress save feature as long as browser instance is open
 
 
