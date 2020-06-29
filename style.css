@@ -80,6 +80,7 @@ h2 {
     font-weight: bold;
     margin: 6% 0 1%;
     padding: 0 0 0 0;
+    display: inline-block;
 }
 
 h1 {
@@ -190,8 +191,8 @@ a:visited {
     float: right;
     margin: 65px -15px 0 0;
 */
-    top: 0px;
-    right: 0px;
+    top: 5px;
+    right: 5px;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
@@ -199,4 +200,20 @@ a:visited {
     z-index: 100;
     overflow: hidden;
 
+}
+
+
+/* HEART TOGGLE TESTING */
+
+.heart {
+    width: 16px;
+    height: 16px;
+    background: url(deheart.png) no-repeat;  
+    display: inline-block;
+    padding: 0px;
+    margin-right: -20px;
+}
+
+.chatted {
+    background: url(heart.png) no-repeat;  
 }

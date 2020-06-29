@@ -33,3 +33,16 @@ function setColor(el) {
 // To add reset button
 // use following in HTML:
 // <button id="reset" title="Reset progress">Reset</button>
+
+
+
+////////////////////////////////////////////////////////////
+//                      HEART TOGGLE                      //
+////////////////////////////////////////////////////////////
+
+$(function() {
+ 
+  $(".heart").on("click", function() {
+    $(this).toggleClass("chatted");
+  });
+}); 
