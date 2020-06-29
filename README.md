@@ -3,10 +3,14 @@ dappervolk daily quest tracker
 created by fel (#575) and rae (#436)
 
 master:
+
 https://dfbl.github.io/dv-quest-tracker/
 
+
 up-to-date version:
+
 https://raeliens.github.io/dv-quest-tracker/
+
 
 a visual tracker for completing daily quests from npcs on dappervolk. there are seven buttons for seven daily quests for each npc. click each button to cycle through colors to mark quest progress: red for incomplete, yellow for in progress, green for complete.
 
@@ -28,3 +32,8 @@ happy questing!
 - code dark theme properly
 - peddler's port added along with agne's daily quest
 - progress save feature as long as browser instance is open
+
+
+view forum:
+
+https://dappervolk.com/forum/topic/1201-visual-daily-quest-tracker
