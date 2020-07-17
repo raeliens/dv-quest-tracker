@@ -1,20 +1,24 @@
 ////////////////////////////////////////////////////////////
-//                     ENDARKEN FONT!                     //
+//                   TOGGLE DARK MODE                     //
 ////////////////////////////////////////////////////////////
 
 
 $(document).ready(function () {
-    $(color).click(function () {
+   $(color).click(function () {
+        $('h1').toggleClass('dark2');
         $('h2').toggleClass('dark');
+        $('button').toggleClass('darkbtn');
+        $('.trout').toggleClass('darkdiv');
     });
 });
+
 
 
 ////////////////////////////////////////////////////////////
 //                 BUTTON COLOR CYCLES                    //
 ////////////////////////////////////////////////////////////
 
-var colors = ["#fffc59", "#5afc8e", "#ff5959"];
+var colors = ["#fea758", "#8dc73f", "#d85e5d"];
 
 function setColor(el) {
     el.colorIdx = el.colorIdx || 0;
@@ -29,3 +33,16 @@ function setColor(el) {
 // To add reset button
 // use following in HTML:
 // <button id="reset" title="Reset progress">Reset</button>
+
+
+
+////////////////////////////////////////////////////////////
+//                      HEART TOGGLE                      //
+////////////////////////////////////////////////////////////
+
+$(function() {
+ 
+  $(".chat").on("click", function() {
+    $(this).toggleClass("chatted");
+  });
+}); 
