@@ -39,7 +39,7 @@ body {
 
 .town {
     position: relative;
-    width: 50%;
+    width: 66.667%;
     max-width: 485px;
     background-color: rgb(248, 208, 161);
     border: 4px solid white;
@@ -127,21 +127,21 @@ button:focus {
 
 /* BEGIN DARK MODE/HIGH CONTRAST SETTINGS */
 
-.dark {
+.h1-dark {
     color: #f2a365; 
 }
 
-.dark2 {
+.h2-dark {
     background-color: #30475e;
     color: #f2a365; 
 }
 
-.darkbtn
+.btn-dark
 {
     border-color: #ececec;
 }
 
-.darkdiv
+.town-dark
 {
     background-color: #222831;
     border-color: #ececec;
