@@ -212,7 +212,7 @@ h1:hover {
 /* HEART TOGGLE TESTING */
 
 .chat {
-    padding-left:8px;
+    padding-left:1px 8px;
     stroke-width: 4em;
     stroke: #fff;
     color: #ebebeb;
