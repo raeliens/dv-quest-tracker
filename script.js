@@ -5,10 +5,10 @@
 
 $(document).ready(function () {
    $(color).click(function () {
-        $('h1').toggleClass('dark2');
-        $('h2').toggleClass('dark');
-        $('button').toggleClass('darkbtn');
-        $('.trout').toggleClass('darkdiv');
+        $('h1').toggleClass('h1-dark');
+        $('h2').toggleClass('h2-dark');
+        $('button').toggleClass('btn-dark');
+        $('.town').toggleClass('town-dark');
     });
 });
 
@@ -18,7 +18,7 @@ $(document).ready(function () {
 //                 BUTTON COLOR CYCLES                    //
 ////////////////////////////////////////////////////////////
 
-var colors = ["#fffc59", "#5afc8e", "#ff5959"];
+var colors = ["#fea758", "#8dc73f", "#d85e5d"];
 
 function setColor(el) {
     el.colorIdx = el.colorIdx || 0;
@@ -42,7 +42,7 @@ function setColor(el) {
 
 $(function() {
  
-  $(".heart").on("click", function() {
+  $(".chat").on("click", function() {
     $(this).toggleClass("chatted");
   });
 }); 

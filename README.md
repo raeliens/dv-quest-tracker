@@ -1,10 +1,9 @@
 # dv-quest-tracker
 dappervolk daily quest tracker
-created by fel (#575) and rae (#436)
+created by fel (#575) and rae (#436); fork by Yako (#321)
 
-master:
-https://dfbl.github.io/dv-quest-tracker/
-
+Yako (#321)'s fork:
+https://yakomeg.github.io/dv-quest-tracker/
 
 up-to-date version:
 https://raeliens.github.io/dv-quest-tracker/
