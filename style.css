@@ -30,21 +30,22 @@ body {
     /* IE 10+ */
 }
 
-/* .container {
+.container {
+    text-align: center;
     padding: 0 auto;
     width: 100%;
     margin: 0 auto;
-} */
+} 
 
-.trout {
+.town {
     position: relative;
-    width: @screen-md-mid;
+    width: 66.667%;
     max-width: 485px;
     background-color: rgb(248, 208, 161);
     border: 4px solid white;
     border-radius: 23px;
-    margin: 10px 0px 10px;
-    padding: 10px 0px 10px;
+    margin: 10px auto;
+    padding: 10px 0;
 }
 
 #wrapperHeader {
@@ -78,9 +79,8 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    margin: 6% 0 1%;
-    padding: 0 0 0 0;
-    display: inline-block;
+    margin: 1em 0 .5em;
+    padding: 0;
 }
 
 h1 {
@@ -99,7 +99,7 @@ h1 {
 
 
 button {
-    background-color: #ff5959;
+    background-color: #d85e5d;
     border: 3px solid white;
     border-radius: 23px;
     color: #fff;
@@ -127,21 +127,21 @@ button:focus {
 
 /* BEGIN DARK MODE/HIGH CONTRAST SETTINGS */
 
-.dark {
+.h1-dark {
     color: #f2a365; 
 }
 
-.dark2 {
+.h2-dark {
     background-color: #30475e;
     color: #f2a365; 
 }
 
-.darkbtn
+.btn-dark
 {
     border-color: #ececec;
 }
 
-.darkdiv
+.town-dark
 {
     background-color: #222831;
     border-color: #ececec;
@@ -211,15 +211,13 @@ h1:hover {
 
 /* HEART TOGGLE TESTING */
 
-.heart {
-    width: 16px;
-    height: 16px;
-    background: url(deheart.png) no-repeat;  
-    display: inline-block;
-    padding: 0px;
-    margin-right: -20px;
+.chat {
+    padding:1px 8px;
+    stroke-width: 4em;
+    stroke: #fff;
+    color: #ebebeb;
 }
 
 .chatted {
-    background: url(heart.png) no-repeat;  
+    color:#d33d25;
 }
